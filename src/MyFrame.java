@@ -15,7 +15,7 @@ public class MyFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
         this.getContentPane().setBackground(new Color(0, 255, 128));
-        ImageIcon image1 = new ImageIcon("/home/clayzzz/javaproject/learningOOP/GUI/Guessing Pokemon Game/src/logo.png");
+        ImageIcon image1 = new ImageIcon(MyFrame.class.getResource("logo.png"));
         this.setIconImage(image1.getImage());
         this.setVisible(true);
         //set the button 
